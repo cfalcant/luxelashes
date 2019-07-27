@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Body = () => {
+const Main = () => {
   return ( 
     <div>
-      Body comp
+      Main comp
     </div>
   )
 }
 
-export default Body
+export default Main

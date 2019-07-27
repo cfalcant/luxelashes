@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {Component} from 'react';
+// import logo from '../public/media/logo.png'
 
-const Header = () => {
-	return (
-		<div>
+export default class Header extends Component {
+	render(){
+		return (
+			<div>
 			Header comp
-		</div>
-	)
+			</div>
+		)
+	}
 }
 
-export default Header
